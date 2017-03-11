@@ -1,0 +1,15 @@
+public class CA
+{
+    public static boolean Fun()
+    {
+        System.out.println("Fun Called");
+        return true;
+    }
+    
+    private static boolean sFun = Fun();
+    
+    public static void main(String[] args)
+    {
+    
+    }
+}
